@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIC QUIZ</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="main">
+
+<h1>The Quiz App</h1>
+<div class="form-wrapper">
+  <form id="quizForm">
+    <div id="question" class="questions"></div>
+  </form>
+  <div class="score-card">
+    <p>Score:</p>
+    <h2 id="score">0/5</h2>
+  </div>
+</div>
+</div>
+<button onclick="checkResult()">Submit</button>
+<script src="index.js"></script>
+</body>
+</html>
